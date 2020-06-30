@@ -1,0 +1,8 @@
+
+
+IMPOSE HTML TEMPLATE  - CHANGE LOG
+
+-----
+
+v1.0 - 10.03.2017
+- initial release

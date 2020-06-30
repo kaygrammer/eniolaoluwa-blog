@@ -1,0 +1,58 @@
+{%extends 'blog/base.html'%}
+<!doctype html>
+
+{% block content %}
+
+                    <!-- site-content -->
+                    <div id="content" class="site-content" role="main"> <!-- .hentry -->
+                        <article class="hentry page">
+                        
+                        	
+                            <!-- .entry-header -->   
+                            <header class="entry-header">
+                                <h1 class="entry-title">Comments</h1>
+                            </header>
+                            <!-- .entry-header -->   
+                            
+                            
+                            <!-- .entry-content -->
+                            <div class="entry-content">
+                            	
+                             <form action="." method="post" enctype="multipart/form-data">
+                             {{ edit_form.as_p }}
+                    {%csrf_token%}<p>
+                                     <input type="submit" value="save changes"></p>
+                    </form>
+                                
+                                
+                                
+                                
+                               
+                            </div>
+                            <!-- .entry-content -->
+                            
+                            
+                        </article>
+                        <!-- .hentry -->
+                	
+                    
+               		</div>
+                    <!-- site-content -->
+            
+            </div>
+                <!-- primary -->    
+            
+            
+            	
+            
+            
+            </div>
+            <!-- layout -->
+        
+        
+        </div>
+        <!-- site-main -->
+        
+        
+     </body></html>
+{% endblock%}

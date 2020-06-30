@@ -1,0 +1,146 @@
+{%extends 'blog/base.html'%}
+<!doctype html>
+
+<html lang="en" class="minimal-style is-menu-fixed is-always-fixed is-selection-shareable blog-animated header-light header-small" data-effect="slideUp">
+        <!-- site-main -->
+
+{%block content%}
+
+
+        <div id="main" class="site-main">
+<div class="layout-medium"> 
+            <div id="primary" class="content-area">
+             
+                <!-- site-content -->
+                    <div id="content" class="site-content" role="main">
+                    
+                                    
+
+                        <!-- entry-header -->
+                        <!--<header class="entry-header">
+                        	<h1 class="entry-title">Latest Stories</h1>
+                        </header>-->
+                        <!-- entry-header -->
+                        
+                        
+                		
+                        <!-- .media-grid-wrap -->
+                        <div class="media-grid-wrap">
+                        
+                			
+
+                            <!-- BLOG MASONRY -->
+                            <div class="masonry blog-masonry blog-stream blog-irregular " data-layout="masonry" data-mobile-item-width="220" data-item-width="420">
+                            	
+                                
+                                <!-- .hentry -->
+
+                                <!-- .hentry -->
+                                
+
+
+                                <!-- .hentry -->
+                                 {% for post in posts%}
+                                <article class="hentry post has-post-thumbnail">
+
+                                    <!-- .featured-image -->
+                                    <div class="featured-image">
+                                        <a href="{% url 'post_detail' post.id %}"><img width="852" height="1136" src="images/blog/11.jpg" alt="blog-image"></a>
+                                    </div>
+                                    <!-- .featured-image -->
+
+
+                                    <!-- .entry-header -->
+                                    <header class="entry-header">
+
+
+                                        <!-- .entry-title -->
+                                        <h2 class="entry-title"><a href="{% url 'post_detail' post.id %}">{{post.title}}</a></h2>
+
+
+                                        <!-- .entry-meta -->
+                                        <div class="entry-meta">
+                                            <span class="cat-links">
+                                                <a href="#" title="View all posts in Adventure" rel="category tag">{{post.slug}}</a>
+                                            </span>
+                                            <span class="entry-date">
+                                                <time class="entry-date" datetime="2014-07-13T04:34:10+00:00">{{post.created}}</time>
+                                            </span>
+                                            <span class="comment-link">
+                                                <a href="{% url 'post_detail' post.id %}">{{total_comments}}</a>
+                                            </span>
+                                        </div>
+                                        <!-- .entry-meta -->
+
+
+                                    </header>
+                                    <!-- .entry-header -->
+
+                                    <!-- .entry-content -->
+                                    <div class="entry-content">
+
+                                        <p>{{post.body}}
+                                            <span class="more">
+                                                <a href="{% url 'post_detail' post.id %}" class="more-link">Read More</a>
+                                            </span>
+                                        </p>
+
+                                    </div>
+                                    <!-- .entry-content -->
+
+
+                                </article>
+                                <!-- .hentry -->
+                {%endfor%}
+
+
+                           </div>
+                           <!-- BLOG MASONRY -->
+
+                        
+                        </div>    
+						<!-- .media-grid-wrap -->
+                        
+                        
+               
+                    	
+                            
+                            
+                            
+                        <!-- post pagination -->
+                        <nav class="post-pagination">
+                            <ul class="pagination">
+                              <li class="pagination-first"><a href="#"> First </a></li>
+                              <li class="pagination-prev"><a href="#" rel="prev"></a></li>
+                              <li class="pagination-num"><a href="#"> 1 </a></li>
+                              <li class="pagination-num current"><a href="#"> 2 </a></li>
+                              <li class="pagination-num"><a href="#"> 3 </a></li>
+                              <li class="pagination-next"><a href="#" rel="next"></a></li>
+                              <li class="pagination-last"><a href="#"> Last </a> </li>
+                            </ul>
+                        </nav>
+                        <!-- post pagination -->
+                        
+                        
+                        
+                        
+                        
+                            
+                        
+                        
+                        
+                        
+                    </div>
+                    <!-- site-content -->
+            
+            </div>
+                <!-- primary -->    
+            
+            
+            	
+            
+            
+     {% endblock %}
+
+</body>
+</html>
