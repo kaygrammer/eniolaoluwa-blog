@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="809f7151-8b7b-41e4-9e4f-a8125331e981" name="Default Changelist" comment="" />
+    <list default="true" id="809f7151-8b7b-41e4-9e4f-a8125331e981" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/8a07cdd69bba1d7c591e144292624de9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/blog/templates/blog/post/allpost.html" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/blog/templates/blog/post/allpost.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/download.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/eni_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/eni_blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/eni_blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/eni_blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-grid-first-full-with-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-grid-first-full-with-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-grid-first-full.html" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-grid-first-full.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-grid-with-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-grid-with-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-irregular-first-full-with-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-irregular-first-full-with-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-irregular-first-full.html" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-irregular-first-full.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-irregular-with-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-irregular-with-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-irregular.html" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/impose-html5-template-v1.0/HTML/Impose-Html/blog-irregular.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -33,9 +51,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog\templates\blog" />
-      <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog\templates\post" />
-      <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog\static" />
+      <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\media" />
       <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog" />
+      <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog" />
+      <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog\templates\post" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -68,7 +87,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

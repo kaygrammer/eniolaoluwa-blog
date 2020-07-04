@@ -3,17 +3,30 @@ from django.contrib.auth.models import User
 from .models import Post, Comment
 from .forms import CommentForm
 from django.contrib import messages
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
 def post_list(request):
     posts = Post.published.all()[:3]
     blogger = User.objects.get()
-    return render(request, 'blog/post/index.html', {'posts': posts,
-                                                    'blogger': blogger})
+    context = {'posts': posts,
+               'blogger':blogger}
+    return render(request, 'blog/post/index.html', context)
+
 
 def all_post(request):
     posts = Post.published.all()
     context = {'posts':posts}
+    paginator = Paginator(posts, 3)
+    page = request.GET.get('page')
+    try:
+        posts = paginator.page(page)
+    except PageNotAnInteger:
+        posts = paginator.page(1)
+    except EmptyPage:
+        posts = paginator,page(paginator.num_pages)
+    context = {'posts': posts,
+               'page':page}
     return render(request, 'blog/post/allpost.html', context)
 
 
