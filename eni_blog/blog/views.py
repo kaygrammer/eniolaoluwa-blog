@@ -10,7 +10,7 @@ def post_list(request):
     posts = Post.published.all()[:3]
     blogger = User.objects.get()
     context = {'posts': posts,
-               'blogger':blogger}
+               'blogger':blogger,}
     return render(request, 'blog/post/index.html', context)
 
 
@@ -79,6 +79,12 @@ def update(request,post_id,id):
         edit_form = CommentForm(instance=comment)
     context = {'edit_form':edit_form}
     return render(request, 'blog/post/formedit.html', context)
+
+
+def AboutMePage(request):
+    return render(request, 'blog/post/about.html')
+
+
 
 
 
