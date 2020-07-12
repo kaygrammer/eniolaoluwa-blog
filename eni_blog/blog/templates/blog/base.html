@@ -12,8 +12,8 @@
     <title>{%block title%}{%endblock%}</title>
 
     <!-- FAV and TOUCH ICONS -->
-    <link rel="shortcut icon" href="{% static 'images/ico/favicon.ico' %}">
-    <link rel="apple-touch-icon" href="{% static 'images/ico/apple-touch-icon.png' %}"/>
+    <link rel="shortcut icon" href="{% static 'images/IMG-20200712-WA0003.jpg' %}">
+    <link rel="apple-touch-icon" href="{% static 'images/IMG-20200712-WA0003.jpg' %}"/>
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans:400,400i,700,700i|Poppins:300,400,500,600,700" rel="stylesheet">
@@ -59,8 +59,8 @@
                     <!-- site-title : image-logo -->
                     <h1 class="site-title">
                         <a href="" rel="home">
-                            <img src="{% static 'images/site/logo.png' %} alt="logo">
-                        	<span class="screen-reader-text">Haley Dust</span>
+                            <img src="{% static 'images/IMG-20200712-WA0003.jpg' %} alt="logo">
+                        	<span class="screen-reader-text">Eniolaoluwa Blogs</span>
                         </a>
                     </h1>
                     <!-- site-title -->
@@ -81,10 +81,10 @@
                     <!-- nav-menu -->
                     <div class="nav-menu">
                         <ul>
-                            <li><a href="">HOME</a>
+                            <li><a href="/">HOME</a>
 
                             <li><a href="/about/">ABOUT ME</a></li>
-                            <li><a href="contact.html">CONTACT</a></li>
+                            <li><a href="/contact">CONTACT</a></li>
                         </ul>
                     </div>
                     <!-- nav-menu -->
@@ -95,12 +95,33 @@
                     <div class="search-container">
 
                         <div class="search-box" role="search">
+
                             <form method="get" class="search-form" action="#">
                                 <label>Search Here
                                     <input type="search" id="search-field" placeholder="type and hit enter" name="s">
-                                </label>
-                                <input type="submit" class="search-submit" value="Search">
-                            </form>
+                              {% if query %}
+<h1>Posts containing "{{ query }}"</h1>
+<h3>
+{% with results.count as total_results %}
+Found {{ total_results }} result{{ total_results|pluralize }}
+{% endwith %}
+</h3>
+{% for post in results %}
+<h4><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h4>
+{{ post.body|truncatewords:5 }}
+{% empty %}
+<p>There are no results for your query.</p>
+{% endfor %}
+<p><a href="{% url "post_search" %}">Search again</a></p>
+{% else %}
+<h1>Search for posts</h1>
+<form action="." method="get">
+{{ form.as_p }}
+<input type="submit" value="Search">
+</form>
+{% endif %}
+
+
                         </div>
 
                     </div>
@@ -176,12 +197,12 @@
                     <!-- site-title : image-logo -->
                     <h1 class="site-title">
                         <a href="" rel="home">
-                            <img src="{% static 'images/site/logo.png' %}" alt="logo">
+                            <img src="{% static 'images/IMG-20200712-WA0003.jpg' %}" alt="logo">
                         </a>
                     </h1>
                     <!-- site-title -->
 
-                    <p class="site-description">lllllllllllllllllllllllllllllllllllllllllll</p>
+                    <p class="site-description">Till christ is fully formed</p>
 
                 </div>
                 <!-- site-title-wrap -->
@@ -309,7 +330,7 @@
                 <!-- layout-medium -->
             	<div class="layout-medium">
 
-            		<div class="textwidget">crafted with <i class="pw-icon-heart"></i> <em>by</em> Pixelwars</div>
+            		<div class="textwidget">crafted with <i class="pw-icon-heart"></i> <em>by</em> Kaygrammer</div>
 
                 </div>
             	<!-- layout-medium -->

@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog'
+    'blog',
+    'taggit',
+    'django.contrib.postgres',
 ]
 
 MIDDLEWARE = [
@@ -70,14 +72,19 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'eni_blog.wsgi.application'
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'blog',
+        'USER': 'postgres',
+        'PASSWORD':'samuel2007',
+        'HOST': 'localhost',
+        'PORT': 5432
     }
 }
 
@@ -122,3 +129,9 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'users')
 
+
+#EMAIL_HOST = 'smtp.gmail.com'
+#EMAIL_HOST_USER = 'your_account@gmail.com'
+#EMAIL_HOST_PASSWORD = 'your_password'
+#EMAIL_PORT = 587
+#EMAIL_USE_TLS = True

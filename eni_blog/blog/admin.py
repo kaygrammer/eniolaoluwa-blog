@@ -19,3 +19,8 @@ class CommentAdmin(admin.ModelAdmin):
     list_filter = ('active', 'created', 'updated')
     search_fields = ('name', 'email', 'body')
 
+
+@ admin.register(Aboutme)
+class AboutAdmin(admin.ModelAdmin):
+    list_display = ('title','image','Body','status')
+

@@ -3,7 +3,7 @@ from django.utils import timezone
 from django.contrib.auth.models import User
 from django.urls import reverse
 from django.conf import settings
-#from taggit.managers import TaggableManager
+from taggit.managers import TaggableManager
 
 
 class PublishedManager(models.Manager):
@@ -41,13 +41,11 @@ class Post(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        return reverse('blog:post_detail',
-                       args=[self.publish.year,
-                             self.publish.month,
-                             self.publish.day,
-                             self.slug])
+        return reverse('post_detail',
+                       args=[
+                             self.id])
 
-    #tags = TaggableManager()
+    tags = TaggableManager()
 
 
 class Comment(models.Model):
@@ -64,3 +62,24 @@ class Comment(models.Model):
 
     def __str__(self):
         return 'Comment by {}'.format(self.name, self.post)
+
+
+class Aboutme(models.Model):
+    STATUS_CHOICES = (
+        ('draft', 'Draft'),
+        ('published', 'Published'),
+    )
+    title = models.CharField(max_length=24)
+    image = models.ImageField(upload_to='users/%Y/%m/%d/', blank=True)
+    Body = models.TextField()
+    status = models.CharField(max_length=10,
+                              choices=STATUS_CHOICES,
+                              default='draft')
+
+    def __str__(self):
+        return self.title
+
+
+    def get_absolute_url(self):
+        return reverse('AboutMePage')
+
