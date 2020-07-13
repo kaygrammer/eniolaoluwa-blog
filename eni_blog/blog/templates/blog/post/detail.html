@@ -8,7 +8,7 @@
                 <img src="{{post.image.url}}" alt="post-image">
             	
                 <!-- .post-thumbnail -->
-                <div class="post-thumbnail" style="background-image:url(images/blog/01.jpg)">
+                <div class="post-thumbnail" style="background-image:url({{post.image.url}})">
                                           
                     <!-- .entry-header -->
                     <header class="entry-header">
@@ -29,7 +29,8 @@
                         <div class="entry-meta">
                             <span class="entry-date">
                                 <time class="entry-date" datetime="2014-07-13T04:34:10+00:00">{{post.created}}</time>
-                            </span> 
+                            </span>
+
                             <span class="comment-link">
                                 <a href="#comments"> <h3>{% with  comments.count as total_comments %}
 
@@ -142,7 +143,7 @@
                             
                                 <!-- post -->
                                 {%for post in first_post %}
-                                <div class="post-thumbnail" style="background-image:url(images/blog/02.jpg)">
+                                <div class="post-thumbnail"  style="background-image:url({{post.image.url}})">
                                         
                                     <!-- .entry-header -->
                                     <header class="entry-header">

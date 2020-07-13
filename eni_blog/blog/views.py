@@ -65,10 +65,6 @@ def post_detail(request,id, tag_slug=None):
     else:
         comment_form = CommentForm()
 
-    tag = None
-    if tag_slug:
-        tag = get_object_or_404(Tag, slug=tag_slug)
-        first_post = first_post.filter(tags__in=[tag])
 
     context = {
         'first_post':first_post,
@@ -78,11 +74,19 @@ def post_detail(request,id, tag_slug=None):
         'comments':comments,
         'comment_form':comment_form,
         'new_comment':new_comment,
-        'tag':tag,
 
     }
 
     return render(request, 'blog/post/detail.html', context)
+
+
+def post_tag(request,tag_slug=None):
+    object_list = Post.published.all()
+    tag = None
+    if tag_slug:
+        tag = get_object_or_404(Tag, slug=tag_slug)
+        post = object_list.filter(tags__in=[tag])
+        return render(request, 'blog/post/allpost.html', {'posts':post, 'tag':tag})
 
 
 def update(request,post_id,id):
@@ -129,17 +133,11 @@ def ContactPage(request):
 
 
 def post_search(request):
-    form = SearchForm()
-    query = None
-    results = []
-    if 'query' in request.GET:
-        form = SearchForm(request.GET)
-        if form.is_valid():
-            query = form.cleaned_data['query']
-            results = Post.objects.annotate(
+    search = request.GET.get('s')
+    results = Post.objects.annotate(
                 search=SearchVector('title', 'body'),
-            ).filter(search=query)
-    return render(request,'blog/post/detail.html', {'form': form,'query': query,'results': results})
+            ).filter(search=search)
+    return render(request,'blog/post/allpost.html', {'posts': results})
 
 
 

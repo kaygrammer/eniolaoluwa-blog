@@ -1,5 +1,5 @@
 from django.urls import path
-from blog.views import post_list, post_detail, update, all_post, AboutMePage, share_post, ContactPage, post_search
+from blog.views import post_list, post_detail, update, all_post, AboutMePage, share_post, ContactPage, post_tag,post_search
 
 
 
@@ -13,7 +13,7 @@ urlpatterns = [
     path('about/', AboutMePage, name='about'),
     path('contact/', ContactPage, name='contact'),
     path('share/<int:post_id>/', share_post, name='share_post'),
-    path('tag/<slug:tag_slug>/', all_post, name='post_list_by_tag'),
+    path('tag/<slug:tag_slug>/', post_tag, name='post_list_by_tag'),
     path('search/', post_search, name='post_search'),
 
 
