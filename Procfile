@@ -1,0 +1,1 @@
+web: gunicorn eni_blog.wsgi 
