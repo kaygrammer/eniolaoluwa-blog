@@ -39,8 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'taggit',
-    'django.contrib.postgres',
+
 ]
+
+INSTALLED_APPS += ('django_summernote',)
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -129,9 +132,12 @@ MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'users')
 
+X_FRAME_OPTIONS = 'SAMEORIGIN'
+
 
 #EMAIL_HOST = 'smtp.gmail.com'
 #EMAIL_HOST_USER = 'your_account@gmail.com'
 #EMAIL_HOST_PASSWORD = 'your_password'
 #EMAIL_PORT = 587
 #EMAIL_USE_TLS = True
+

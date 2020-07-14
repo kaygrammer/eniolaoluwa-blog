@@ -31,6 +31,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'js/shortcodes/shortcodes.css'%}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/768.css'%}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/992.css'%}">
+    <link href="{% static 'http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.3/summernote.css'%}" rel="stylesheet">
     <!-- INITIAL SCRIPTS -->
 	<script src="{% static 'js/modernizr.min.js' %}"></script>
 
@@ -58,7 +59,7 @@
 
                     <!-- site-title : image-logo -->
                     <h1 class="site-title">
-                        <a href="" rel="home">
+                        <a href="{% url 'post_list'  %}" rel="home">
                             <img src="{% static 'images/IMG-20200712-WA0003.jpg' %}" alt="logo">
                         	<span class="screen-reader-text">Eniolaoluwa Blogs</span>
                         </a>
@@ -353,6 +354,6 @@
     <script src="{% static 'js/jquery.collagePlus/jquery.collagePlus.min.js' %}"></script>
     <script src="{% static 'js/main.js' %}"></script>
     <script src="{% static 'js/shortcodes/shortcodes.js' %}"></script>
-
+    <script src="{% static 'http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.3/summernote.js'%}"></script>
 </body>
 </html>
