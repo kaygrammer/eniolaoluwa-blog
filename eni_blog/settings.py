@@ -39,10 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'taggit',
-    'django_summernote',
+
 ]
 
-
+INSTALLED_APPS += ('django_summernote',)
 
 
 MIDDLEWARE = [
