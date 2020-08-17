@@ -1,7 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="809f7151-8b7b-41e4-9e4f-a8125331e981" name="Default Changelist" comment="" />
+    <list default="true" id="809f7151-8b7b-41e4-9e4f-a8125331e981" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/migrations/0002_update-help_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/ResizeSensor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/SOURCE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/django_summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/font/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/font/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/font/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/font/summernote.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/jquery.fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/jquery.iframe-transport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/jquery.ui.widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-ar-AR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-ar-AR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-bg-BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-bg-BG.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-ca-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-ca-ES.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-cs-CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-cs-CZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-da-DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-da-DK.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-de-DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-de-DE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-el-GR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-el-GR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-en-US.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-en-US.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-es-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-es-ES.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-es-EU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-es-EU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-fa-IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-fa-IR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-fi-FI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-fi-FI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-fr-FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-fr-FR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-gl-ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-gl-ES.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-he-IL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-he-IL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-hr-HR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-hr-HR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-hu-HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-hu-HU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-id-ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-id-ID.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-it-IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-it-IT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-ja-JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-ja-JP.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-ko-KR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-ko-KR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-lt-LT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-lt-LT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-lt-LV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-lt-LV.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-mn-MN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-mn-MN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-nb-NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-nb-NO.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-nl-NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-nl-NL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-pl-PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-pl-PL.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-pt-BR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-pt-PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-pt-PT.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-ro-RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-ro-RO.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-ru-RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-ru-RU.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-sk-SK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-sk-SK.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-sl-SI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-sl-SI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-sr-RS-Latin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-sr-RS-Latin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-sr-RS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-sr-RS.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-sv-SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-sv-SE.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-ta-IN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-ta-IN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-th-TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-th-TH.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-tr-TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-tr-TR.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-uk-UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-uk-UA.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-uz-UZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-uz-UZ.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-vi-VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-vi-VN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/lang/summernote-zh-TW.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/summernote-bs4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/summernote-bs4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/summernote-lite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/summernote-lite.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/summernote.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static/summernote/summernote.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/templates/django_summernote/upload_attachment.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/templates/django_summernote/widget_common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/templates/django_summernote/widget_iframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/templates/django_summernote/widget_iframe_editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/templates/django_summernote/widget_inplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/widgets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eni_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/eni_blog/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,20 +159,20 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eni_blog/blog/templates/blog/post" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/static/django_summernote/static" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog\templates\blog\post" />
-      <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog\templates" />
-      <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog\templates\post" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog\static\images" />
       <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog\static" />
       <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog\static\images\blog" />
       <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog\templates\blog" />
       <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\media" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog\templates\blog\post" />
+      <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog\templates" />
+      <recent name="C:\Users\Admin\PycharmProjects\eniola\eni_blog\blog\templates\post" />
     </key>
   </component>
   <component name="RunDashboard">

@@ -6,7 +6,8 @@ from django.contrib import messages
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.core.mail import send_mail
 from taggit.models import Tag
-from django.contrib.postgres.search import SearchVector
+from django.contrib.postgres.search import SearchVector, SearchQuery, SearchRank
+from django.views.generic import ListView
 
 
 def post_list(request):
@@ -134,7 +135,8 @@ def ContactPage(request):
 
 def post_search(request):
     search = request.GET.get('s')
-    results = Post.objects.annotate(
-                search=SearchVector('title', 'body'),
+    results = Post.objects.annotate(search=SearchVector('title', 'body'),
             ).filter(search=search)
     return render(request,'blog/post/allpost.html', {'posts': results})
+
+

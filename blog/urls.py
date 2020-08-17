@@ -14,5 +14,8 @@ urlpatterns = [
     path('contact/', ContactPage, name='contact'),
     path('share/<int:post_id>/', share_post, name='share_post'),
     path('tag/<slug:tag_slug>/', post_tag, name='post_list_by_tag'),
-    path('search/', post_search, name='post_search'),
+    #path('search/', post_search, name='post_search'),
+    #path('search/', globalsearch, name='search'),
+
+
 ]
