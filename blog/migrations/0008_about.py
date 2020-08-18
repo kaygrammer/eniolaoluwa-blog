@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
             name='About',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('image', models.ImageField(blank=True, upload_to='users/%Y/%m/%d/')),
+                ('image', models.ImageField(blank=True, upload_to='media/%Y/%m/%d/')),
                 ('Body', models.CharField(max_length=3000)),
             ],
         ),

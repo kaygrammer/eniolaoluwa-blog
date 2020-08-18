@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('title', models.CharField(max_length=24)),
-                ('image', models.ImageField(blank=True, upload_to='users/%Y/%m/%d/')),
+                ('image', models.ImageField(blank=True, upload_to='media/%Y/%m/%d/')),
                 ('Body', models.TextField()),
                 ('status', models.CharField(choices=[('draft', 'Draft'), ('published', 'Published')], default='draft', max_length=10)),
             ],

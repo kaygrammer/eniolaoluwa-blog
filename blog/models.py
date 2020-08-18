@@ -23,7 +23,7 @@ class Post(models.Model):
                                on_delete=models.CASCADE,
                                related_name='blog_posts')
     body = models.TextField()
-    image = models.ImageField(upload_to='users/%Y/%m/%d/',blank=True)
+    image = models.ImageField(upload_to='media/%Y/%m/%d/', blank=True, default="media/images/no_image.png")
     publish = models.DateTimeField(default=timezone.now)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
@@ -70,7 +70,7 @@ class Aboutme(models.Model):
         ('published', 'Published'),
     )
     title = models.CharField(max_length=24)
-    image = models.ImageField(upload_to='users/%Y/%m/%d/', blank=True)
+    image = models.ImageField(upload_to='media/%Y/%m/%d/', blank=True, default="media/images/no_image.png")
     Body = models.TextField()
     status = models.CharField(max_length=10,
                               choices=STATUS_CHOICES,
